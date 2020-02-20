@@ -20,7 +20,7 @@ tar xf virtualenv-16.0.0.tar.gz
 python virtualenv-16.0.0/virtualenv.py venv
 . venv/bin/activate
 pip install tensorflow==1.15.1
-
+pip install tb-nightly
 pip install tblib
 zip -r venv.zip venv
 ```
