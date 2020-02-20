@@ -19,7 +19,9 @@ tar xf virtualenv-16.0.0.tar.gz
 # Make sure to install using Python 3, as TensorFlow only provides Python 3 artifacts
 python virtualenv-16.0.0/virtualenv.py venv
 . venv/bin/activate
-pip install tensorflow==1.13.1
+pip install tensorflow==1.15.1
+
+pip install tblib
 zip -r venv.zip venv
 ```
 
